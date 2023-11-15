@@ -1,11 +1,12 @@
-# Pre-Requisites
+# Cours ESME Webapp sur instance CE2 
+## Pre-Requisites
 You must be having an AWS account to create infrastructure resources on AWS cloud.
 
-# Pre-Deployment
+## Pre-Deployment
 You need to have an AWS account with administrative access to complete the workshop.
 You must have AWS CLI installed and configured on you laptop (optional)
 
-# Deployment
+## Deployment
 
 Configure NACL allowing port 22 from custom IP source  ( Your IPV4 ) and port 80 from public.
 
@@ -27,6 +28,6 @@ Use Git commands and clone the source code from github repository: https://githu
 
 Deploy the source code into EC2 instance in the folder: /var/www/html
 
-# Validation
+## Validation
 
 Verify if you are able to access the web application from internet browser. ec2-ipv4/app/index.html
